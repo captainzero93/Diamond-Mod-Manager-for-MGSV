@@ -1,4 +1,4 @@
-# DMM (Diamond Mod Manager)
+# DMM (Diamond Mod Manager) https://www.nexusmods.com/metalgearsolidvtpp/mods/2648
 
 A mod manager for Metal Gear Solid V: The Phantom Pain, written from scratch on how SnakeBite installs mods. It uses the same `.mgsv` mods and they end up the same in game, but installing, removing and reordering mods is much quicker; SnakeBite takes significantly longer.
 
