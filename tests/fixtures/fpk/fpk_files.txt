@@ -1,0 +1,9 @@
+Assets\tpp\chara\sna\Scenes\sna0_main0_def.fmdl
+Assets\tpp\chara\sna\Scenes\sna0_main0_def.fcnp
+Assets\tpp\chara\sna\Scenes\sna0_main0_def.frdv
+Assets\tpp\chara\sna\Scenes\sna0_main0_def.gani
+Assets\tpp\pack\a.ftex
+Assets\tpp\pack\B.ftex
+Assets\tpp\pack\_x.lba
+Assets\tpp\pack\z.geom
+Assets\tpp\pack\unknown.zzz

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModEntry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Test Mod" Version="1.2" Author="choom" Website="https://example.com/mod">
+  <MGSVersion Version="1.0.15.4" />
+  <SBVersion Version="0.0.0.0" />
+  <Description>Line one of the description.
+
+[b]Bold[/b] &amp; &lt;tags&gt;
+Last line</Description>
+  <QarEntries>
+    <QarEntry Hash="1794294152244485877" FilePath="/Tpp/start.lua" Compressed="false" ContentHash="EA2B2676C28C0DB26D39331A336C6B92" />
+    <QarEntry Hash="1793129073267778611" FilePath="/Assets/tpp/script/lib/Foo.lua" Compressed="false" ContentHash="51E511681201E325AF8EBD724518B0C6" />
+    <QarEntry Hash="17100590426842076397" FilePath="/Assets/tpp/pack/prebuilt/prebuilt.fpkd" Compressed="true" ContentHash="0A728E8F0F7501A1E3670B983D5A11D8" />
+    <QarEntry Hash="17101156335278277426" FilePath="/Assets/tpp/pack/mission2/test/test.fpkd" Compressed="true" ContentHash="42F0F62B404F42CCF959C54B69501C1A" />
+    <QarEntry Hash="5920970260331021106" FilePath="/Assets/tpp/pack/mission2/test/test.fpk" Compressed="true" ContentHash="DEA496666A899B73EFF94ABB7FF21E78" />
+  </QarEntries>
+  <FpkEntries>
+    <FpkEntry FpkFile="/Assets/tpp/pack/prebuilt/prebuilt.fpkd" FilePath="/Assets/tpp/level/pre/pre.fox2" ContentHash="A6B02FF786D873550D2549FBF1ABA2DC" />
+    <FpkEntry FpkFile="/Assets/tpp/pack/prebuilt/prebuilt.fpkd" FilePath="/Assets/tpp/level/pre/pre.sdf" ContentHash="F1BB27724D82EB54C41AD832BCE05387" />
+    <FpkEntry FpkFile="/Assets/tpp/pack/mission2/test/test.fpkd" FilePath="/Assets/tpp/level/test/a.parts" ContentHash="F433A3DF77DC5876A14E2FEEC0249E8F" />
+    <FpkEntry FpkFile="/Assets/tpp/pack/mission2/test/test.fpkd" FilePath="/Assets/tpp/level/test/test.fox2" ContentHash="83FE0A74B8856032577B6E996F0085D1" />
+    <FpkEntry FpkFile="/Assets/tpp/pack/mission2/test/test.fpkd" FilePath="/Assets/tpp/level/test/test.lua" ContentHash="113268844452F61E53CF90E69825BA80" />
+    <FpkEntry FpkFile="/Assets/tpp/pack/mission2/test/test.fpk" FilePath="/Assets/tpp/chara/sna/sna_body.ftex" ContentHash="A8C33048DC52BC3EB2DB5F878E7B1D07" />
+    <FpkEntry FpkFile="/Assets/tpp/pack/mission2/test/test.fpk" FilePath="/Assets/tpp/chara/sna/sna_body.fmdl" ContentHash="C3F060C59E6F67197A4BB0A3211CDA46" />
+  </FpkEntries>
+  <FileEntries>
+    <FileEntry FilePath="/master/e2f97fc93de10546.dat" ContentHash="02F6C5AAA3B9F41F5A5911E60A4F5A15" />
+    <FileEntry FilePath="/plugins/thing.dll" ContentHash="5884E40D596370BE5406F2711AD9E39A" />
+    <FileEntry FilePath="/mod/modules/MyModule.lua" ContentHash="3E58DE28B64EFDC202EE045A615FAA24" />
+  </FileEntries>
+  <WmvEntries>
+    <WmvEntry Hash="16355244024075978054" />
+  </WmvEntries>
+</ModEntry>

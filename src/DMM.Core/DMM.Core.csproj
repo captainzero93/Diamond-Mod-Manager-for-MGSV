@@ -1,0 +1,16 @@
+<!-- DMM core library: formats, mod packages and install engine -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>DMM.Core</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyMetadata Include="BuildMarker" Value="DMM_V0_9_86" />
+    <InternalsVisibleTo Include="DMM.Tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- built in; a file of the same name next to the program replaces it -->
+    <EmbeddedResource Include="..\..\data\qar_dictionary.txt" LogicalName="qar_dictionary.txt" />
+    <EmbeddedResource Include="..\..\data\fpk_dictionary.txt" LogicalName="fpk_dictionary.txt" />
+  </ItemGroup>
+</Project>

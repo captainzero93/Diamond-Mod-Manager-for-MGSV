@@ -1,0 +1,6 @@
+Assets\tpp\level\b.fox2
+Assets\tpp\level\a.fox2
+Assets\tpp\level\x.parts
+Assets\tpp\level\q.vfx
+Assets\tpp\level\script.lua
+Assets\tpp\level\y.lng

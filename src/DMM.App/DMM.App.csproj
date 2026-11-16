@@ -1,0 +1,23 @@
+<!-- DMM Windows app -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>DMM</AssemblyName>
+    <RootNamespace>DMM.App</RootNamespace>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationVisualStyles>true</ApplicationVisualStyles>
+    <ApplicationUseCompatibleTextRendering>false</ApplicationUseCompatibleTextRendering>
+    <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- controls are built in code, never in the designer -->
+    <NoWarn>$(NoWarn);WFO1000</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DMM.Core\DMM.Core.csproj" />
+    <EmbeddedResource Include="Assets\logo.png" LogicalName="logo.png" />
+    <EmbeddedResource Include="Assets\icon.ico" LogicalName="icon.ico" />
+    <EmbeddedResource Include="Assets\*.ttf" LogicalName="%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

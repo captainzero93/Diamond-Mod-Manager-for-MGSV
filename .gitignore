@@ -1,0 +1,6 @@
+bin/
+obj/
+verified-v*/
+.vs/
+*.user
+.test-temp/
